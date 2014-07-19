@@ -1,3 +1,6 @@
+/*
+Load Fonts
+*/
 
 /* 
 Header
@@ -7,7 +10,7 @@ Header
 {
   background: url(../img/donate.png);
   width: 72px;  
-  height: 92px; 
+  height: 92px;
 }
 
 
@@ -21,4 +24,44 @@ Header
 
 .theartguide {
     
+}
+
+.pad {
+    padding-left: 76px;
+    padding-right: 76px;
+}
+
+.header__title, .header__sub-title  {
+    display: inline-block;
+}
+
+.header__sub-title {
+    position: relative;
+    right: 60px;
+    font-size: .7em;
+    text-align: right;
+}
+
+.header__title {
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.header__title-dotCom {
+    font-size: 30px;
+}
+
+.theartguide__nav a {
+    font-size: 13px;
+}
+
+.chatter_nav {
+    width: 162px;
+    float: right;
+}
+
+.header__donate-banner
+{
+    float: right;   
 }
