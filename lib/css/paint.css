@@ -1,0 +1,24 @@
+
+/* 
+Header
+*/
+
+.header__donate-banner 
+{
+  background: url(../img/donate.png);
+  width: 72px;  
+  height: 92px; 
+}
+
+
+
+.header {
+    background: white;
+    margin: 0 76px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.theartguide {
+    
+}
