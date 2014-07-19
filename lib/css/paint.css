@@ -65,3 +65,21 @@ Header
 {
     float: right;   
 }
+
+.header-module {
+    width: 698px;
+}
+
+.header__title-module {
+    
+}
+
+.tag__nav_contact {
+    padding-left: 249px;
+}
+
+.header-chatter-module {
+    width: 698px;
+    position: relative;
+    right: 34px;
+}
