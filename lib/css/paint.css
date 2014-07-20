@@ -70,7 +70,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', end
 
 .event_listings,
 .exhibition_lounge,
-.call-for-artist
+.call-for-artist,
+.body__content_h5
 {
     font-family: 'pristinaregular';
 }
@@ -80,7 +81,8 @@ Utilities
 .body__content_feat_h5,
 .body__content_feat_view-details,
 .theartguide__nav a,
-.chatter_nav
+.chatter_nav,
+.body__content_h5
 {
     text-transform: capitalize;
 }
@@ -266,6 +268,10 @@ Header
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #dfe0ce ));
 }
+
+/*
+Feature Set
+*/
 .body__content_feat_img {
     float: left;
     background: url(http://placehold.it/190x120);
@@ -273,7 +279,10 @@ Header
     height: 130px;
 }
 
-
+.body__content_h5 {
+    font-size: 20px;
+    font-weight: 300;
+}
 
 .body__content_feat_h5,
 .body__content_feat_view-details
@@ -303,3 +312,5 @@ Header
 .tag_header {
     height: 136px;
 }
+
+
