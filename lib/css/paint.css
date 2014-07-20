@@ -83,7 +83,6 @@ body,
 html,
 body
 {
-    font-family: 'franklin_gothic_light_ssiLt';
     font-size: 92.5%;
     background: rgba(240,237,165,1);
 background: -moz-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
@@ -93,6 +92,7 @@ background: -o-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 
 background: -ms-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
 background: linear-gradient(to bottom, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', endColorstr='#ffffff', GradientType=0 );
+font-family: 'franklin_gothic_light_ssiLt';
 }
 
 /* 
@@ -376,7 +376,7 @@ Feature Set
 .footer p { margin: 0; }
 .footer__p {
     margin: 0;
-    line-height: 1.2;
+    line-height: 1;
 }
 
 .sidebar__social {
@@ -384,4 +384,14 @@ Feature Set
     background: url(http://placehold.it/137x500);
     width: 137px;
     height: 240px;    
+}
+
+.footer__copyright
+{
+    padding-top: 10px;
+    font-size: 12.5px;
+    color: #707070;
+    word-spacing: 0.1px;
+    letter-spacing: 0.01px;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
