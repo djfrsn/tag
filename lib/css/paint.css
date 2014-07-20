@@ -1,168 +1,179 @@
 /*
 Load Fonts
 */
-@font-face {
+
+@font-face
+{
     font-family: 'franklin_gothic_mediumregular';
     src: url('../fonts/franklin_gothic_medium_regular-webfont.eot');
-    src: url('../fonts/franklin_gothic_medium_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/franklin_gothic_medium_regular-webfont.woff') format('woff'),
-         url('../fonts/franklin_gothic_medium_regular-webfont.ttf') format('truetype'),
-         url('../fonts/franklin_gothic_medium_regular-webfont.svg#franklin_gothic_mediumregular') format('svg');
+    src: url('../fonts/franklin_gothic_medium_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/franklin_gothic_medium_regular-webfont.woff') format('woff'), url('../fonts/franklin_gothic_medium_regular-webfont.ttf') format('truetype'), url('../fonts/franklin_gothic_medium_regular-webfont.svg#franklin_gothic_mediumregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
-@font-face {
+@font-face
+{
     font-family: 'franklin_gothic_demi_condRg';
     src: url('../fonts/franklin_gothic_demo_cond_reg-webfont.eot');
-    src: url('../fonts/franklin_gothic_demo_cond_reg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/franklin_gothic_demo_cond_reg-webfont.woff') format('woff'),
-         url('../fonts/franklin_gothic_demo_cond_reg-webfont.ttf') format('truetype'),
-         url('../fonts/franklin_gothic_demo_cond_reg-webfont.svg#franklin_gothic_demi_condRg') format('svg');
+    src: url('../fonts/franklin_gothic_demo_cond_reg-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/franklin_gothic_demo_cond_reg-webfont.woff') format('woff'), url('../fonts/franklin_gothic_demo_cond_reg-webfont.ttf') format('truetype'), url('../fonts/franklin_gothic_demo_cond_reg-webfont.svg#franklin_gothic_demi_condRg') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
-@font-face {
+@font-face
+{
     font-family: 'pristinaregular';
     src: url('../fonts/pristina-webfont.eot');
-    src: url('../fonts/pristina-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pristina-webfont.woff') format('woff'),
-         url('../fonts/pristina-webfont.ttf') format('truetype'),
-         url('../fonts/pristina-webfont.svg#pristinaregular') format('svg');
+    src: url('../fonts/pristina-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/pristina-webfont.woff') format('woff'), url('../fonts/pristina-webfont.ttf') format('truetype'), url('../fonts/pristina-webfont.svg#pristinaregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
-@font-face {
+@font-face
+{
     font-family: 'franklin_gothic_light_ssiLt';
     src: url('../fonts/franklin-gothic-light-ssi-light-webfont.eot');
-    src: url('../fonts/franklin-gothic-light-ssi-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/franklin-gothic-light-ssi-light-webfont.woff') format('woff'),
-         url('../fonts/franklin-gothic-light-ssi-light-webfont.ttf') format('truetype'),
-         url('../fonts/franklin-gothic-light-ssi-light-webfont.svg#franklin_gothic_light_ssiLt') format('svg');
+    src: url('../fonts/franklin-gothic-light-ssi-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/franklin-gothic-light-ssi-light-webfont.woff') format('woff'), url('../fonts/franklin-gothic-light-ssi-light-webfont.ttf') format('truetype'), url('../fonts/franklin-gothic-light-ssi-light-webfont.svg#franklin_gothic_light_ssiLt') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
+a
+{
+    color: black
 }
-a { 
-    color: black;
+
+html,
+body
+{
+    font-size: 92.5%
 }
-html, body {
-font-size: 92.5%;
-}
+
 /* 
 Header
 */
-
-.header__donate-banner 
+    
+.header__donate-banner
 {
-  background: url(../img/donate.png);
-  width: 72px;  
-  height: 92px;
+    background: url(../img/donate.png);
+    width: 72px;
+    height: 92px;
 }
 
-
-
-.header {
+.header
+{
     margin: 0 auto;
     background: white;
     width: 815px;
 }
 
-.theartguide {
+.theartguide
+{
     width: 100%;
     height: 100%;
 }
 
-.pad {
+.pad
+{
     margin: 0 auto;
     padding-left: 76px;
     padding-right: 76px;
 }
 
-.header__title, .header__sub-title  {
-    display: inline-block;
+.header__title,
+.header__sub-title
+{
+    padding-top: 72.5px;
+    display: inline-block
 }
 
-.header__sub-title {
+.header__sub-title
+{
     position: relative;
-    right: 40px;
+    right: 36px;
     font-size: 9px;
     text-align: right;
     font-family: 'franklin_gothic_light_ssiLt';
 }
-.header__sub-title-lower 
+
+.header__sub-title-lower
 {
-    position: relative;
-    right: 20px;
+    
 }
 
-.header__title {
+.header__title
+{
     display: inline-block;
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 30px;
 }
 
-.header__title-dotCom {
-    font-size: 20px;
+.header__title-dotCom
+{
+    font-size: 20px
 }
 
-.theartguide__nav a {
+.theartguide__nav a
+{
     font-size: 12px;
     text-transform: capitalize;
 }
 
-.chatter_nav {
+.chatter_nav
+{
     width: 162px;
     float: right;
     padding-top: 10px;
     font-family: 'pristinaregular';
     text-transform: capitalize;
 }
-.chatter_nav a 
-{ 
-    color: #b74545;
+
+.chatter_nav a
+{
+    color: #b74545
 }
+
 .header__donate-banner
 {
-    float: right;   
+    float: right
 }
 
-
-.header__title-module {
-    
-}
-.header__title, .header__title-dotCom 
+.header__title-module
 {
-    font-family: 'franklin_gothic_demi_condRg';    
+    width: 430px;
+}
+.header__title
+{
+    margin-bottom: -8px;    
 }
 
-.tag__nav_contact {
-    padding-left: 284px;
+.header__title,
+.header__title-dotCom
+{
+    font-family: 'franklin_gothic_demi_condRg'
 }
 
-.header-chatter-module {
+.tag__nav_contact
+{
+    padding-left: 284px
+}
+
+.header-chatter-module
+{
+    font-family: 'franklin_gothic_mediumregular'
+}
+
+.theartguide__nav
+{
+    border-top: 5px solid black;
+    background-color: #e6c856;
+    margin-top: -6px;
     font-family: 'franklin_gothic_mediumregular';
+    padding-top: 15px;
 }
 
-.theartguide__nav {
-    font-family: 'franklin_gothic_mediumregular';
-}
-
-.tag {
+.tag
+{
     margin: 0 auto;
     width: 815px;
 }
