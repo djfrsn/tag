@@ -376,7 +376,7 @@ Feature Set
 .footer p { margin: 0; }
 .footer__p {
     margin: 0;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .sidebar__social {
@@ -390,7 +390,7 @@ Feature Set
 {
     padding-top: 10px;
     font-size: 12.5px;
-    color: #FF0000;
+    color: #707070;
     word-spacing: 0.1px;
     letter-spacing: 0.01px;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
