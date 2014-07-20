@@ -93,7 +93,9 @@ Header
 .header__sub-title,
 .event_listings,
 .exhibition_lounge,
-.call-for-artist
+.call-for-artist,
+.body__content_feat_timestamp,
+.body__content_feat_view-details
 {
     display: inline-block;
 }
@@ -240,4 +242,9 @@ Header
     border: 0;
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #dfe0ce ));
+}
+.body__content_feat_img {
+    background: url(http://placehold.it/190x120);
+    width: 190px;        
+    height: 120px;
 }
