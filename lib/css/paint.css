@@ -81,7 +81,7 @@ Utilities
 .body__content_feat_h5,
 .body__content_feat_view-details,
 .theartguide__nav a,
-.chatter_nav,
+.social_nav,
 .body__content_h5
 {
     text-transform: capitalize;
@@ -163,7 +163,7 @@ Header
     font-size: 12px;
 }
 
-.chatter_nav
+.social_nav
 {
     width: 162px;
     float: right;
@@ -171,7 +171,7 @@ Header
     font-family: 'pristinaregular';
 }
 
-.chatter_nav a
+.social_nav a
 {
     color: #b74545;
 }
@@ -203,7 +203,7 @@ Header
     padding-left: 284px;
 }
 
-.header-chatter-module
+.header-social-module
 {
     font-family: 'franklin_gothic_mediumregular';
 }
