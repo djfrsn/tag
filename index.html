@@ -1,75 +1,86 @@
-<!doctype html>
-<html class='no-js' lang='en'>
-  <head>
-    <meta charset='utf-8' />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+<!DOCTYPE html>
+
+<html class='gradient no-js' lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0, user-scalable=no'
+    name='viewport'>
+
     <title>The Art Guide</title>
-    <link rel='stylesheet' href='lib/css/foundation.min.css' />
-    <link rel='stylesheet' href='lib/css/paint.css' />
+    <link href='lib/css/foundation.min.css' rel='stylesheet'>
+    <link href='lib/css/paint.css' rel='stylesheet'><!--[if gte IE 9]
+    <style type="text/css">
+    .gradient {
+    filter: none;
+    }
+    </style>
+    <![endif]-->
+
     <script src='lib/js/vendor/modernizr.js'></script>
 </head>
-  <body>
-  
-        <div class='theartguide'>          
-            <div class='tag'> 
-                <div class='header'>
-                       <div class="pad">
-                       
-                        <div class="header-chatter-module">
-                          <div class='header__donate-banner'></div>
-                           <nav class='chatter_nav'>
-                            <a href='#' class='chatter__arttalk'>art talk</a>
-                            |
-                            <a href='#' class='chatter__register'>register</a>
-                            |
-                            <a href='#' class='chatter__login'>login</a>
-                        </nav>
-                        
-                        </div>
-                        
-                       
-                       <div class="header__title-module">
-                        <h1 class='header__title'>TheArtGuide<span class="header__title-dotCom">.com</span></h1>
-                        <h7 class='header__sub-title'>The Source for Art Exhibitions, Artist<span class='header__sub-title-lower'><br>Events, Galleries<br>& Museums</span></h7>
-                        </div>                                                                 
-                </div>
-                </div>
-                        <nav class='theartguide__nav'>
-                            <a href='#' class='tag__nav_feature-galler'>feature gallery</a>
-                            |
-                            <a href='#' class='tag__nav_feature-artist'>feature artist</a>
-                            |
-                            <a href='#' class='tag__nav_events'>events</a>
-                            |
-                            <a href='#' class='tag__nav_exhibitions'>exhibitions</a>
-                            <a href='#' class='tag__nav_call-for-artist'></a>
-                            <a href='#' class='tag__nav_contact'>contact</a>
-                            |
-                            <a href='#' class='tag__nav_advertise'>advertise</a>
-                        </nav>
-                
-            </div>            
-        </div>
-        
-        <div class="left">
-        <div class="featured__artist"></div>
-        <div class="event_listings"></div>
-        <div class="exhibition_lounge"></div>
-        <div class="call-for-artist"></div>
-        </div>
-        <div class="right">
-        <div class="international-art"></div>
-        <div class="client_ad_space"></div>
-        <div class="google_adwords"></div>            
-        </div>
-    
-    <script src='lib/js/vendor/jquery.js'></script>
-    <script src='lib/js/vendor/css3-mediaqueries.js'></script>
-    <script src='lib/js/brush.js'></script>
-    <script src='lib/js/vendor/foundation.min.js'></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
-</html>
 
+<body>
+    <div class='theartguide'>
+        <div class='tag header pad'>
+            <div class="header-chatter-module">
+                <div class='header__donate-banner'></div>
+
+                <nav class='chatter_nav'>
+                    <a class='chatter__arttalk' href='#'>art talk</a> |
+                    <a class='chatter__register' href='#'>register</a> |
+                    <a class='chatter__login' href='#'>login</a>
+                </nav>
+            </div>
+
+            <div class="header__title-module">
+                <h1 class='header__title'>TheArtGuide<span class=
+                "header__title-dotCom">.com</span></h1>The Source for Art
+                Exhibitions, Artist<span class='header__sub-title-lower'><br>
+                Events, Galleries<br>
+                & Museums</span>
+            </div>
+        </div>
+
+        <nav class='theartguide__nav'>
+            <a class='tag__nav_feature-galler' href='#'>feature gallery</a> |
+            <a class='tag__nav_feature-artist' href='#'>feature artist</a> |
+            <a class='tag__nav_events' href='#'>events</a> | <a class=
+            'tag__nav_exhibitions' href='#'>exhibitions</a> <a class=
+            'tag__nav_call-for-artist' href='#'></a> <a class=
+            'tag__nav_contact' href='#'>contact</a> | <a class=
+            'tag__nav_advertise' href='#'>advertise</a>
+        </nav>
+
+        <div class="tag tag__body pad">
+            <div class="left main">
+                <div class="featured__artist"></div>
+
+                <div class="event_listings">
+                    <a class="event_listings_link" href="#">event listings</a>
+                </div>
+
+                <div class="exhibition_lounge">
+                    <a class="exhibition_lounge_link" href="#">exhibition
+                    lounge</a>
+                </div>
+
+                <div class="call-for-artist">
+                    <a class="call-for-artist_link" href="#">call for
+                    artist</a>
+                </div>
+                <hr class='hr'>
+            </div>
+
+            <div class="right">
+                <div class="international-art"></div>
+
+                <div class="client_ad_space"></div>
+
+                <div class="google_adwords"></div>
+            </div>
+        </div>
+    </div><script src='lib/js/vendor/jquery.js'></script> <script src='lib/js/vendor/css3-mediaqueries.js'></script> <script src='lib/js/brush.js'></script> <script src='lib/js/vendor/foundation.min.js'></script> <script>
+  $(document).foundation();
+    </script>
+</body>
+</html>
