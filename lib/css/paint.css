@@ -44,6 +44,16 @@ a
 }
 
 html,
+body,
+.theartguide
+{
+    height: 1733px; /* use js to set this = browser.height() */ 
+}
+.tag__body {
+    height: 1597px; /* use js to set this =  html - .header + otherUnkwnVar */     
+}
+
+html,
 body
 {
     font-family: 'franklin_gothic_light_ssiLt';
@@ -56,7 +66,6 @@ background: -o-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 
 background: -ms-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 100%);
 background: linear-gradient(to bottom, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', endColorstr='#ffffff', GradientType=0 );
-    height: 1000px;
 }
 
 .event_listings,
@@ -212,10 +221,6 @@ Header
 .tag, .tag__body, .main {
     background: #FFF;
 }
-.tag__body 
-{
-    height: 800px;    
-}
 
 .theartguide__nav {
     text-align: center;
@@ -293,4 +298,8 @@ Header
 .body__content_feat_view-details
 {
     font-size: 13px;
+}
+
+.tag_header {
+    height: 136px;
 }
