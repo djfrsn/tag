@@ -75,6 +75,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', end
 {
     font-family: 'pristinaregular';
 }
+
+
 /*
 Utilities 
 */
@@ -127,7 +129,8 @@ Header
 .body__content_feat_timestamp,
 .body__content_feat_view-details,
 .body__content_feat_h5, 
-.body__content_feat_p
+.body__content_feat_p,
+.speak__mod_p
 {
     display: inline-block;
 }
@@ -138,7 +141,6 @@ Header
     right: 36px;
     font-size: 9px;
     text-align: right;
-    font-family: 'franklin_gothic_light_ssiLt';
 }
 
 .header__sub-title-lower
@@ -206,6 +208,7 @@ Header
 .header-social-module
 {
     font-family: 'franklin_gothic_mediumregular';
+    width: 100%; /* this is variable to fix issues in the header */
 }
 
 .theartguide__nav
@@ -314,3 +317,15 @@ Feature Set
 }
 
 
+
+.speak__mod {
+    padding: 105px 0 0 0;
+}
+
+.speak__mod_p {
+    font-size: 13px;
+}
+
+.speak__mod_title {
+    font-size: 14px;
+}
