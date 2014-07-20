@@ -50,7 +50,7 @@ body,
     height: 1733px; /* use js to set this = browser.height() */ 
 }
 .tag__body {
-    height: 1597px; /* use js to set this =  html - .header + otherUnkwnVar */     
+    height: 100%; /* use js to set this =  html - .header + otherUnkwnVar */     
 }
 
 html,
@@ -237,12 +237,10 @@ Header
 
 .main {
     width: 514px;
-    height: 100%;
-    margin: 0 0 20px 0;
+    margin: 20px 0 20px 0;
 }
 
 .featured__artist {
-    margin-top: 22.5px;
     background-image: url(http://placehold.it/514x300);
     width: 514px;
     height: 300px;
@@ -332,7 +330,10 @@ Feature Set
 }
 
 .footer {
-    width: 100%;
+    width: 815px;
+    height: 200px;
+    margin: 25px auto 0;
+    text-align: center;
 }
 
 .international-art {
@@ -342,12 +343,14 @@ Feature Set
 }
 
 .client_ad_space {
+    margin: 20px 0 0 0;
     background: url(http://placehold.it/137x500);
     width: 137px;
     height: 500px;
 }
 
 .google_adwords {
+    margin: 20px 0 0 0;
     background: url(http://placehold.it/137x500);
     width: 137px;
     height: 500px;
@@ -357,6 +360,18 @@ Feature Set
 
 .sidebar {
     width: 137px;
-    height: 100%;
-    margin: 15px 0 0 0;
+    height: 1405px;
+    margin: 20px 0 0 0;
+}
+
+.footer__p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.sidebar__social {
+    margin: 20px 0 0 0;
+    background: url(http://placehold.it/137x500);
+    width: 137px;
+    height: 240px;    
 }
