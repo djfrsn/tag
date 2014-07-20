@@ -394,4 +394,11 @@ Feature Set
     word-spacing: 0.1px;
     letter-spacing: 0.01px;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    -word-color: #f5474b #000000;
+}
+
+#pixel-perfect {
+    -letter-kern: 1px 1px 0 0 0
+                  1px 0 2px 0 0
+                  0 0 0;
 }
