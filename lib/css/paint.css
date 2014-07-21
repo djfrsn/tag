@@ -63,12 +63,6 @@ Font Utilities
     font-family: 'pristinaregular';
 }
 
-.footer 
-{
-    letter-spacing: 0.2px;
-    word-spacing: 2px;
-}
-
 html,
 body,
 .theartguide
@@ -77,7 +71,7 @@ body,
 }
 .tag__body 
 {
-    height: 1553px; /* use js to set this =  html - .header + otherUnkwnVar */     
+    height: 1489px; /* use js to set this =  html - .header + otherUnkwnVar */     
 }
 
 html,
@@ -326,15 +320,20 @@ Feature Set
 
 
 .speak__mod {
-    padding: 105px 0 0 0;
+    padding: 108px 0 0 0;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
 .speak__mod_p {
-    font-size: 13px;
+    font-size: 12.4px;
+    font-weight: 200;
+    width: 459px;
+    line-height: 1.6;
 }
 
 .speak__mod_title {
-    font-size: 14px;
+    font-size: 14.7px;
+    font-weight: 500;
 }
 
 .footer {
@@ -343,7 +342,7 @@ Feature Set
     margin: 0 auto;
     padding: 0 0 0;
     text-align: center;
-    color: #F8F8F8;
+    color: #E0E0E0;
     background: #38383a;
 }
 
@@ -376,12 +375,12 @@ Feature Set
 }
 .footer p {
     margin: 0;
-    font-size: 13.9px; }
+    font-size: 14.4px; }
 .sidebar__social {
-    margin: 20px 0 0 0;
-    background: url(http://placehold.it/137x500);
+    margin: 27px 0 0 0;
+    background: url(http://placehold.it/137x260);
     width: 137px;
-    height: 240px;    
+    height: 260px;    
 }
 
 .footer__pFirst
@@ -389,7 +388,8 @@ Feature Set
     margin: 0;
     line-height: 18px;
     word-spacing: 0.1px;
-    padding-top: 10px;
+    text-align: left;
+    padding: 14px 0 0 76px;
 }
 .footer__pSecond
 {
@@ -397,13 +397,13 @@ Feature Set
     line-height: 18px;
     word-spacing: 0.1px;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 78px;
 }
 p.footer__copyright
 {
-    padding-top: 17px;
-    font-size: 11px;
-    color: #707070;
+    padding-top: 12px;
+    font-size: 11.5px;
+    color: #727272;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 a.footer__pFirst_featured-gallery
@@ -413,4 +413,8 @@ a.footer__pFirst_featured-gallery
 a.footer__pFirst_featured-artist
 {
     color: #978aae;
+}
+a.footer_pSecond_advertising
+{
+    color: #C08D6D;
 }
