@@ -327,6 +327,7 @@ html, body
 {
     font-size: 14.7px;
     font-weight: 500;
+    letter-spacing: 0.4px;
 }
 .footer
 {
@@ -413,7 +414,7 @@ a.footer__pFirst_featured-artist
 }
 a.footer_pSecond_advertising
 {
-    color: #C08D6D;
+    color: #C48E6D;
 }
 h5.body__content_feat_h5
 {
