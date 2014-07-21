@@ -282,7 +282,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     height: 1px;
     border: 0;
     background: black;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(240, 237, 165, 0)), to(rgba(240,237,165,0)), color-stop(50%, rgba(240,237,165,1) ));
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(240, 237, 165, 0)), to(rgba(240,237,165,0)), color-stop(50%, #e9d893 ));
 }
 /*
 Feature Set
