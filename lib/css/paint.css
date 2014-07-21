@@ -71,7 +71,7 @@ body,
 }
 .tag__body 
 {
-    height: 1500px; /* use js to set this =  html - .header + otherUnkwnVar */     
+    height: 1540px; /* use js to set this =  html - .header + otherUnkwnVar */     
 }
 
 html,
@@ -256,9 +256,10 @@ Header
     height: 45px;
     width: 160.5156px;
     text-align: center;
-    margin: 15px 0 0 0;
+    margin: 18px 0 0 0;
     padding-top: 17px;
     border: 2.5px solid black;
+    background: #DFDFDF;
 }
 .exhibition_lounge,
 .call-for-artist
@@ -266,7 +267,7 @@ Header
     margin: 0 0 0 10px;   
 }
 .hr {
-    margin: 25px 0;
+    margin: 35px 0;
     height: 1px;
     border: 0;
     background: black;
@@ -290,7 +291,7 @@ Feature Set
 }
 
 .body__content_h5 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;;
 }
 
@@ -309,7 +310,7 @@ Feature Set
 .body__content_feat_h5, 
 .body__content_feat_p
 {
-    max-width: 324px;
+    max-width: 353px;
 }
 
 .body__content_feat_p,
@@ -387,7 +388,7 @@ Feature Set
     margin: 0;
     font-size: 14.4px; }
 .sidebar__social {
-    margin: 39px 0 0 0;
+    margin: 79px 0 0 0;
     background: url(http://placehold.it/137x260);
     width: 137px;
     height: 260px;    
@@ -396,7 +397,7 @@ Feature Set
 .footer__pFirst
 {
     margin: 0;
-    line-height: 18px;
+    line-height: 16px;
     word-spacing: 0.1px;
     text-align: left;
     padding: 14px 0 0 76px;
@@ -418,11 +419,11 @@ p.footer__copyright
 }
 a.footer__pFirst_featured-gallery
 {
-    color: #978aae;
+    color: #AF9AD1;
 }
 a.footer__pFirst_featured-artist
 {
-    color: #978aae;
+    color: #AF9AD1;
 }
 a.footer_pSecond_advertising
 {
