@@ -272,7 +272,13 @@ Header
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #dfe0ce ));
 }
-
+.hrAlt {
+    margin: 61px 0 0 0;
+    height: 1px;
+    border: 0;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(240, 237, 165, 0)), to(rgba(240,237,165,0)), color-stop(50%, rgba(240,237,165,1) ));
+}
 /*
 Feature Set
 */
@@ -320,14 +326,14 @@ Feature Set
 
 
 .speak__mod {
-    padding: 108px 0 0 0;
+    padding: 48px 0 0 0;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
 .speak__mod_p {
-    font-size: 12.4px;
+    font-size: 11.6px;
     font-weight: 200;
-    width: 459px;
+    width: 465px;
     line-height: 1.6;
 }
 
