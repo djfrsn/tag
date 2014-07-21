@@ -212,7 +212,6 @@ Header
 
 .tag__nav
 {   
-    /* padding-top: 7.65px; */
     font-family: 'franklin_gothic_mediumregular';
     width: 815px;
     padding: 0 76px;
@@ -255,9 +254,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     width: 160.5156px;
     text-align: center;
     margin: 18px 0 0 0;
-    padding-top: 17px;
+    padding-top: 15.5px;
     border: 2.5px solid black;
     background: #DFDFDF;
+    font-size: 17px;
+    text-transform: capitalize;
 }
 .exhibition_lounge,
 .call-for-artist
@@ -465,5 +466,4 @@ p.body__content_feat_p
     position: absolute;
     left: 0;
     text-align: center;
-    /* padding-bottom: 10px; */
 }
