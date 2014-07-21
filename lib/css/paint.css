@@ -67,7 +67,7 @@ html,
 body,
 .theartguide
 {
-    height: 1771px; /* use js to set this = browser.height() */ 
+    height: 1758px; /* use js to set this = browser.height() */ 
 }
 .tag__body 
 {
@@ -79,17 +79,15 @@ body
 {
     
     font-size: 92.5%;
-    background: rgba(240,237,165,1);
-background: -moz-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,237,165,1)), color-stop(65%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
-background: linear-gradient(to bottom, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', endColorstr='#ffffff', GradientType=0 );
-font-family: 'franklin_gothic_light_ssiLt';
+background: rgba(240,237,165,1);
+background: -moz-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,237,165,1)), color-stop(71%, rgba(252,251,239,1)), color-stop(86%, rgba(252,252,241,1)), color-stop(100%, rgba(252,252,241,1)));
+background: -webkit-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: -o-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: -ms-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: linear-gradient(to bottom, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', endColorstr='#fcfcf1', GradientType=0 );
 }
-
 /* 
 Header
 */
@@ -226,8 +224,14 @@ Header
 }
 .tag {
     background: #FFF;
-    background: rgba(255,255,255,1); background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(240,237,165,1) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(65%, rgba(255,255,255,1)), color-stop(100%, rgba(240,237,165,1))); background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(240,237,165,1) 100%); background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(240,237,165,1) 100%); background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(240,237,165,1) 100%); background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(240,237,165,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0eda5', GradientType=0 );
-}
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(230,201,86,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(65%, rgba(255,255,255,1)), color-stop(100%, rgba(230,201,86,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(230,201,86,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(230,201,86,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(230,201,86,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(230,201,86,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6c956', GradientType=0 );}
 
 .theartguide__nav {
     text-align: center;
