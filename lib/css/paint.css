@@ -4,9 +4,9 @@ Load Fonts
 
 @font-face
 {
-    font-family: 'franklin_gothic_light_ssiLt';
-    src: url('../fonts/franklin-gothic-light-ssi-light-webfont.eot');
-    src: url('../fonts/franklin-gothic-light-ssi-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/franklin-gothic-light-ssi-light-webfont.woff') format('woff'), url('../fonts/franklin-gothic-light-ssi-light-webfont.ttf') format('truetype'), url('../fonts/franklin-gothic-light-ssi-light-webfont.svg#franklin_gothic_light_ssiLt') format('svg');
+    font-family: 'franklin_gothic_mediumregular';
+    src: url('../fonts/franklin_gothic_medium_regular-webfont.eot');
+    src: url('../fonts/franklin_gothic_medium_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/franklin_gothic_medium_regular-webfont.woff') format('woff'), url('../fonts/franklin_gothic_medium_regular-webfont.ttf') format('truetype'), url('../fonts/franklin_gothic_medium_regular-webfont.svg#franklin_gothic_mediumregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -22,20 +22,13 @@ Load Fonts
 
 @font-face
 {
-    font-family: 'franklin_gothic_light_ssiLt';
-    src: url('../fonts/franklin-gothic-light-ssi-light-webfont.eot');
-    src: url('../fonts/franklin-gothic-light-ssi-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/franklin-gothic-light-ssi-light-webfont.woff') format('woff'), url('../fonts/franklin-gothic-light-ssi-light-webfont.ttf') format('truetype'), url('../fonts/franklin-gothic-light-ssi-light-webfont.svg#franklin_gothic_light_ssiLt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face
-{
     font-family: 'pristinaregular';
     src: url('../fonts/pristina-webfont.eot');
     src: url('../fonts/pristina-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/pristina-webfont.woff') format('woff'), url('../fonts/pristina-webfont.ttf') format('truetype'), url('../fonts/pristina-webfont.svg#pristinaregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face
 {
     font-family: 'franklin_gothic_light_ssiLt';
@@ -45,6 +38,56 @@ Load Fonts
     font-style: normal;
 }
 
+a
+{
+    color: black;
+}
+
+/*
+Font Utilities 
+*/
+.body__content_feat_h5,
+.body__content_feat_view-details,
+.tag__nav a,
+.social_nav,
+.body__content_h5
+{
+    text-transform: capitalize;
+}
+
+.event_listings,
+.exhibition_lounge,
+.call-for-artist,
+.body__content_h5
+{
+    font-family: 'pristinaregular';
+}
+
+html,
+body,
+.theartguide
+{
+    height: 1758px; /* use js to set this = browser.height() */ 
+}
+.tag__body 
+{
+    height: 1550px; /* use js to set this =  html - .header + otherUnkwnVar */     
+}
+
+html,
+body
+{
+    
+    font-size: 92.5%;
+background: rgba(240,237,165,1);
+background: -moz-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,237,165,1)), color-stop(71%, rgba(252,251,239,1)), color-stop(86%, rgba(252,252,241,1)), color-stop(100%, rgba(252,252,241,1)));
+background: -webkit-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: -o-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: -ms-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+background: linear-gradient(to bottom, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', endColorstr='#fcfcf1', GradientType=0 );
+}
 /*
 Font Utilities 
 */
@@ -52,27 +95,408 @@ Font Utilities
 Header
 */
     
-.header__donate-banner
-{
-    float: right;
-}
-
-.header__title
-{
-    margin-bottom: -8px;    
-}
-
-.tag {
-    background: #FFF;
-background: rgba(255,255,255,1);
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(62%, rgba(255,255,255,1)), color-stop(66%, rgba(252,250,241,1)), color-stop(70%, rgba(246,240,211,1)), color-stop(76%, rgba(242,226,167,1)), color-stop(100%, rgba(230,201,86,1)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6c956', GradientType=0 );}
-
 /*
 Feature Set
 */
+
+
+.header__donate-banner
+{
+    float: right;
+    background: url(../img/donate.png);
+    width: 72px;
+    height: 92px;
+}
+.header__title
+{
+    margin-bottom: -8px;
+    font-size: 69px;
+}
+.tag
+{
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6c956', GradientType=0 );
+    margin: 0 auto;
+    width: 815px;
+}
+a
+{
+    color: black;
+}
+.body__content_feat_h5, .body__content_feat_view-details, .tag__nav a, .social_nav, .body__content_h5
+{
+    text-transform: capitalize;
+}
+.event_listings, .exhibition_lounge, .call-for-artist, .body__content_h5
+{
+    font-family: 'pristinaregular';
+}
+html, body, .theartguide
+{
+    height: 1752px;
+}
+.tag__body
+{
+    height: 1530px;
+}
+html, body
+{
+    font-size: 92.5%;
+    background: linear-gradient(to bottom, rgba(240,237,165,1) 0%, rgba(252,251,239,1) 71%, rgba(252,252,241,1) 86%, rgba(252,252,241,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0eda5', endColorstr='#fcfcf1', GradientType=0 );
+}
+.header
+{
+    margin: 0 auto;
+    background: white;
+    width: 815px;
+    height: 100%;
+}
+.theartguide
+{
+    width: 100%;
+    height: 100%;
+}
+.pad
+{
+    margin: 0 auto;
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.header__title, .header__sub-title, .event_listings, .exhibition_lounge, .call-for-artist, .body__content_feat_timestamp, .body__content_feat_view-details, .body__content_feat_h5, .body__content_feat_p, .speak__mod_p
+{
+    display: inline-block;
+}
+.header__sub-title
+{
+    position: absolute;
+    font-size: 0.441rem;
+    text-align: right;
+    top: 42px;
+    left: 334px;
+}
+.header__sub-title-lower
+{
+    font-size: 0.75rem;
+}
+.header__title-com
+{
+    font-size: 34px;
+}
+.tag__nav a
+{
+    font-size: 0.95rem;
+}
+.social_nav
+{
+    font-family: 'pristinaregular';
+    padding: 10px;
+    float: right;
+    margin: 0;
+}
+.social_nav a
+{
+    color: #b74545;
+}
+.header__title-module
+{
+    width: 100%;
+    position: relative;
+    bottom: -23px;
+    left: 0;
+}
+.header__title, .header__title-com
+{
+    font-family: 'franklin_gothic_demi_condRg';
+}
+.tag__nav_contact
+{
+    padding-left: 120px;
+}
+.header-social-module
+{
+    font-family: 'franklin_gothic_mediumregular';
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.tag__nav
+{
+    width: 815px;
+    padding: 0 76px;
+    margin: 10px auto 0;
+    font-family: 'franklin_gothic_mediumregular';
+}
+.main
+{
+    width: 514px;
+    margin: 0 0 0 0;
+}
+.featured__artist
+{
+    background-image: url(http://placehold.it/514x275);
+    width: 514px;
+    height: 275px;
+    border: 2.5px solid black;
+}
+.event_listings, .exhibition_lounge, .call-for-artist
+{
+    height: 45px;
+    width: 162.0156px;
+    text-align: center;
+    margin: 18px 0 0 0;
+    padding-top: 14.5px;
+    border: 2.5px solid black;
+    background: #5C5C5C;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.exhibition_lounge, .call-for-artist
+{
+    margin: 0 0 0 10px;
+}
+.hr
+{
+    margin: 35px 0 25px;
+    height: 1px;
+    border: 0;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #dfe0cd ));
+}
+.hrAlt
+{
+    margin: 76px 0 67px 0;
+    height: 1px;
+    border: 0;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(240, 237, 165, 0)), to(rgba(240,237,165,0)), color-stop(50%, #e9d893 ));
+}
+.body__content_feat_img
+{
+    float: left;
+    background: url(http://placehold.it/161x117);
+    width: 161px;
+    height: 117px;
+    -webkit-box-shadow: 0 8px 12px -7px black;
+    -moz-box-shadow: 0 8px 12px -7px black;
+    box-shadow: 0 8px 12px -7px black;
+}
+.body__content_h5
+{
+    font-size: 19px;
+    font-weight: 600;
+}
+.body__content_feat_h5, .body__content_feat_view-details
+{
+    text-transform: capitalize;
+}
+.body__content_feat_h5, .body__content_feat_p, .body__content_feat_timestamp
+{
+    padding-left: 10px;
+}
+.body__content_feat_h5, .body__content_feat_p
+{
+    max-width: 353px;
+}
+.body__content_feat_p, .body__content_feat_timestamp, .body__content_feat_view-details
+{
+    font-size: 0.9em;
+    word-spacing: 1.5px;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+.tag_header
+{
+    height: 140px;
+}
+.speak__mod
+{
+    padding: 0 0 0 0;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+.speak__mod_p
+{
+    font-size: 11.6px;
+    font-weight: 200;
+    width: 465px;
+    line-height: 1.6;
+    word-spacing: 0.2px;
+}
+.speak__mod_title
+{
+    font-size: 14.7px;
+    font-weight: 500;
+}
+.footer
+{
+    width: 815px;
+    height: 82px;
+    margin: 0 auto;
+    padding: 0 0 0;
+    text-align: center;
+    color: #E0E0E0;
+    background: #38383a;
+}
+.international-art
+{
+    background: url(http://placehold.it/137x105);
+    width: 137px;
+    height: 105px;
+}
+.client_ad_space
+{
+    margin: 20px 0 0 0;
+    background: url(http://placehold.it/137x515);
+    width: 137px;
+    height: 515px;
+}
+.google_adwords
+{
+    margin: 20px 0 0 0;
+    background: url(http://placehold.it/137x515);
+    width: 137px;
+    height: 515px;
+}
+.sidebar
+{
+    width: 137px;
+    height: 1405px;
+    margin: 0 0 0 0;
+}
+.footer p
+{
+    margin: 0;
+    font-size: 0.91rem;
+    word-spacing: -0.5px;
+}
+.sidebar__social
+{
+    margin: 40px 0 0 0;
+    background: url(http://placehold.it/137x260);
+    width: 137px;
+    height: 260px;
+    -webkit-box-shadow: 0 8px 12px -7px black;
+    -moz-box-shadow: 0 8px 12px -7px black;
+    box-shadow: 0 8px 12px -7px black;
+}
+.footer__pFirst
+{
+    margin: 0;
+    line-height: 16px;
+    word-spacing: 0.1px;
+    text-align: left;
+    padding: 14px 0 0 76px;
+}
+.footer__pSecond
+{
+    margin: 0;
+    line-height: 18px;
+    word-spacing: 0.1px;
+    text-align: left;
+    padding-left: 78px;
+}
+p.footer__copyright
+{
+    padding-top: 12px;
+    font-size: 11.5px;
+    color: #727272;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+a.footer__pFirst_featured-gallery
+{
+    color: #AF9AD1;
+}
+a.footer__pFirst_featured-artist
+{
+    color: #AF9AD1;
+}
+a.footer_pSecond_advertising
+{
+    color: #C08D6D;
+}
+h5.body__content_feat_h5
+{
+    margin-top: 0;
+}
+a.body__content_feat_view-details
+{
+    float: right;
+    color: #e5c756;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    word-spacing: -1px;
+}
+p.body__content_feat_timestamp
+{
+    margin-bottom: 0;
+    word-spacing: 0.4px;
+}
+p.body__content_feat_p
+{
+    margin-bottom: 23px;
+    word-spacing: 1px;
+}
+.feat
+{
+    padding-bottom: 40px;
+}
+.feat.feat_last
+{
+    padding-bottom: 0;
+}
+.tag__nav_bg
+{
+    width: 100%;
+    height: 40px;
+    border-top: 7px solid black;
+    background-color: #e6c856;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    top: 100px;
+}
+.tag.tag__body.pad
+{
+    padding-top: 20px;
+}
+.tag__body-left_main a
+{
+    color: #ECECEC;
+}
+.featured__artist_overlay
+{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 0;
+    top: 221px;
+    padding: 16px 0 0 15px;
+}
+a.featured__artist_overlay_artist
+{
+    color: #ECECEC;
+    font-size: 25px;
+    font-family: 'pristinaregular';
+    letter-spacing: 0.9px;
+}
+.header__title, .header__title-dotCom
+{
+    width: 0;
+}
+span.header__title-dotCom
+{
+    font-size: 2.3rem;
+}
+.tag__body_main_top-buttons a
+{
+    color: rgb(240, 240, 240);
+}
+a.featured__artist_overlay_link
+{
+    font-family: 'pristinaregular';
+    font-size: 25px;
+    color: rgb(240, 240, 240);
+}
