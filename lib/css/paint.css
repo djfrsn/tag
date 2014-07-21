@@ -533,3 +533,9 @@ span.header__title-dotCom
 {
     color: rgb(240, 240, 240);
 }
+a.featured__artist_overlay_link
+{
+    font-family: 'pristinaregular';
+    font-size: 25px;
+    color: rgb(240, 240, 240);
+}
