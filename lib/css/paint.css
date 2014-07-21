@@ -156,8 +156,8 @@ Header
     position: absolute;
     font-size: 0.441rem;
     text-align: right;
-    top: 41px;
-    left: 359px;
+    top: 42px;
+    left: 334px;
 }
 
 .header__sub-title-lower
@@ -178,7 +178,7 @@ Header
 
 .tag__nav a
 {
-    font-size: 0.90rem;
+    font-size: 0.95rem;
 }
 
 .social_nav
@@ -219,7 +219,7 @@ Header
 
 .tag__nav_contact
 {
-    padding-left: 159px;
+    padding-left: 120px;
 }
 
 .header-social-module
@@ -524,4 +524,8 @@ a.featured__artist_overlay_artist
 .header__title, .header__title-dotCom
 {
     width: 0;
+}
+span.header__title-dotCom
+{
+    font-size: 2.3rem;
 }
