@@ -48,7 +48,7 @@ Font Utilities
 */
 .body__content_feat_h5,
 .body__content_feat_view-details,
-.theartguide__nav a,
+.tag__nav a,
 .social_nav,
 .body__content_h5
 {
@@ -159,9 +159,9 @@ Header
     font-size: 20px;
 }
 
-.theartguide__nav a
+.tag__nav a
 {
-    font-size: 12px;
+    font-size: 0.90rem;
 }
 
 .social_nav
@@ -201,7 +201,7 @@ Header
 
 .tag__nav_contact
 {
-    padding-left: 284px;
+    padding-left: 159px;
 }
 
 .header-social-module
@@ -210,11 +210,13 @@ Header
     width: 100%; /* this is variable to fix issues in the header */
 }
 
-.theartguide__nav
-{
-    
-    padding-top: 7.65px;
+.tag__nav
+{   
+    /* padding-top: 7.65px; */
     font-family: 'franklin_gothic_mediumregular';
+    width: 815px;
+    padding: 0 76px;
+    margin: 8px auto 0;
 }
 
 .tag
@@ -232,16 +234,6 @@ background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
 background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(252,250,241,1) 66%, rgba(246,240,211,1) 70%, rgba(242,226,167,1) 76%, rgba(230,201,86,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6c956', GradientType=0 );}
-
-.theartguide__nav {
-    width: 100%;
-    height: 35px;
-    border-top: 5px solid black;
-    background-color: #e6c856;
-    position: absolute;
-    left: 0;
-    text-align: center;
-}
 
 .main {
     width: 514px;
@@ -462,4 +454,16 @@ p.body__content_feat_p
 .feat.feat_last
 {
     padding-bottom: 0;
+}
+
+.tag__nav_bg
+{
+    width: 100%;
+    height: 35px;
+    border-top: 5px solid black;
+    background-color: #e6c856;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    /* padding-bottom: 10px; */
 }
