@@ -83,6 +83,7 @@ body,
 html,
 body
 {
+    
     font-size: 92.5%;
     background: rgba(240,237,165,1);
 background: -moz-linear-gradient(top, rgba(240,237,165,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%);
@@ -340,7 +341,7 @@ Feature Set
     width: 815px;
     height: 82px;
     margin: 0 auto;
-    padding: 10px 0 0;
+    padding: 0 0 0;
     text-align: center;
     color: #F8F8F8;
     background: #38383a;
@@ -373,12 +374,9 @@ Feature Set
     height: 1405px;
     margin: 20px 0 0 0;
 }
-.footer p { margin: 0; }
-.footer__p {
+.footer p {
     margin: 0;
-    line-height: 1.2;
-}
-
+    font-size: 13.9px; }
 .sidebar__social {
     margin: 20px 0 0 0;
     background: url(http://placehold.it/137x500);
@@ -386,19 +384,33 @@ Feature Set
     height: 240px;    
 }
 
-.footer__copyright
+.footer__pFirst
 {
-    padding-top: 10px;
-    font-size: 12.5px;
-    color: #707070;
+    margin: 0;
+    line-height: 18px;
     word-spacing: 0.1px;
-    letter-spacing: 0.01px;
-    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-    -word-color: #f5474b #000000;
+    padding-top: 10px;
 }
-
-#pixel-perfect {
-    -letter-kern: 1px 1px 0 0 0
-                  1px 0 2px 0 0
-                  0 0 0;
+.footer__pSecond
+{
+    margin: 0;
+    line-height: 18px;
+    word-spacing: 0.1px;
+    text-align: left;
+    padding-left: 80px;
+}
+p.footer__copyright
+{
+    padding-top: 17px;
+    font-size: 11px;
+    color: #707070;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+a.footer__pFirst_featured-gallery
+{
+    color: #978aae;
+}
+a.footer__pFirst_featured-artist
+{
+    color: #978aae;
 }
