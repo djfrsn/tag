@@ -71,7 +71,7 @@ body,
 }
 .tag__body 
 {
-    height: 1540px; /* use js to set this =  html - .header + otherUnkwnVar */     
+    height: 1550px; /* use js to set this =  html - .header + otherUnkwnVar */     
 }
 
 html,
@@ -258,7 +258,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 {
     /* background: url(http://placehold.it/140x40); */
     height: 45px;
-    width: 160.5156px;
+    width: 162.0156px;
     text-align: center;
     margin: 18px 0 0 0;
     padding-top: 17px;
@@ -278,7 +278,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #dfe0ce ));
 }
 .hrAlt {
-    margin: 61px 0 46px 0;
+    margin: 61px 0 61px 0;
     height: 1px;
     border: 0;
     background: black;
@@ -369,16 +369,16 @@ Feature Set
 
 .client_ad_space {
     margin: 20px 0 0 0;
-    background: url(http://placehold.it/137x500);
+    background: url(http://placehold.it/137x527);
     width: 137px;
-    height: 500px;
+    height: 527px;
 }
 
 .google_adwords {
     margin: 20px 0 0 0;
-    background: url(http://placehold.it/137x500);
+    background: url(http://placehold.it/137x527);
     width: 137px;
-    height: 500px;
+    height: 527px;
 }
 
 
@@ -390,9 +390,9 @@ Feature Set
 }
 .footer p {
     margin: 0;
-    font-size: 14.4px; }
+    font-size: 0.912rem; }
 .sidebar__social {
-    margin: 79px 0 0 0;
+    margin: 40px 0 0 0;
     background: url(http://placehold.it/137x260);
     width: 137px;
     height: 260px;    
