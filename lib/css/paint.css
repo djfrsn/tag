@@ -71,7 +71,7 @@ body,
 }
 .tag__body 
 {
-    height: 1489px; /* use js to set this =  html - .header + otherUnkwnVar */     
+    height: 1500px; /* use js to set this =  html - .header + otherUnkwnVar */     
 }
 
 html,
@@ -273,7 +273,7 @@ Header
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #dfe0ce ));
 }
 .hrAlt {
-    margin: 61px 0 0 0;
+    margin: 61px 0 46px 0;
     height: 1px;
     border: 0;
     background: black;
@@ -330,7 +330,7 @@ Feature Set
 
 
 .speak__mod {
-    padding: 48px 0 0 0;
+    padding: 0 0 0 0;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
@@ -387,7 +387,7 @@ Feature Set
     margin: 0;
     font-size: 14.4px; }
 .sidebar__social {
-    margin: 27px 0 0 0;
+    margin: 39px 0 0 0;
     background: url(http://placehold.it/137x260);
     width: 137px;
     height: 260px;    
@@ -450,5 +450,9 @@ p.body__content_feat_p
 }
 .feat
 {
-    padding-bottom: 15px;
+    padding-bottom: 40px;
+}
+.feat.feat_last
+{
+    padding-bottom: 0;
 }
