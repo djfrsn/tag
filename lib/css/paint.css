@@ -529,3 +529,7 @@ span.header__title-dotCom
 {
     font-size: 2.3rem;
 }
+.tag__body_main_top-buttons a
+{
+    color: rgb(240, 240, 240);
+}
